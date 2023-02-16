@@ -29,11 +29,7 @@ pipeline {
 			  
 			}
 		post {
-				always {
-				    dir ('sBoot'){
-					    junit 'target/surefire-reports/*.*xml'
-				    }
-				}
+				
 			}
 		}
 		
